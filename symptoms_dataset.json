@@ -1,0 +1,30 @@
+[
+  {
+    "symptom_id": "S-001",
+    "symptom_name": "Chest pain radiating to left arm",
+    "mapped_category": "Cardiovascular",
+    "severity_weight": 0.95,
+    "recommended_triage_alert": "CRITICAL_EMERGENCY"
+  },
+  {
+    "symptom_id": "S-002",
+    "symptom_name": "Shortness of breath while resting",
+    "mapped_category": "Respiratory",
+    "severity_weight": 0.88,
+    "recommended_triage_alert": "CRITICAL_EMERGENCY"
+  },
+  {
+    "symptom_id": "S-003",
+    "symptom_name": "High fever above 103F",
+    "mapped_category": "Infectious",
+    "severity_weight": 0.65,
+    "recommended_triage_alert": "HIGH_WARNING"
+  },
+  {
+    "symptom_id": "S-004",
+    "symptom_name": "Persistent mild dry cough",
+    "mapped_category": "Respiratory",
+    "severity_weight": 0.30,
+    "recommended_triage_alert": "ROUTINE_MONITOR"
+  }
+]
