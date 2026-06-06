@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f7fb;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  color: gray;
+}
+
+.icon-btn {
+  border: none;
+  background: #eee;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  background: #e0f2ff;
+  color: #0077ff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* CHART */
+.chart {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blue { background: #0077ff; }
+.purple { background: purple; }
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.stat-card p {
+  margin: 0;
+  color: gray;
+}
+
+.stat-card h2 {
+  margin: 5px 0 0;
+}
+
+/* INSIGHTS */
+.section {
+  margin-top: 20px;
+}
+
+.insight {
+  display: flex;
+  gap: 15px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.green { background: #e0f7f5; }
+.purple { background: #f3e5f5; }
+.orange { background: #fff3e0; }
+
+/* PIE */
+.pie-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.pie {
+  width: 100px;
+  height: 100px;
+  background: #fafafa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTON */
+.primary-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}

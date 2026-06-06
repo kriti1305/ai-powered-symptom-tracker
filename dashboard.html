@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AIWS Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<!-- TOP NAV -->
+<div class="top-nav">
+    <a href="index.html">Home</a>
+</div>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <h2>Good morning, Alice</h2>
+            <p>Monday, Oct 23</p>
+        </div>
+        <div class="avatar">A</div>
+    </div>
+
+    <!-- CHART CARD -->
+    <div class="card">
+        <div class="card-header">
+            <h3>Perception Flux</h3>
+        </div>
+        <canvas id="chart"></canvas>
+    </div>
+
+    <!-- AI INSIGHT -->
+    <div class="card ai-box">
+        <p>
+        I've noticed your 'Micropsia' episodes often occur after screen use.
+        Consider the 20-20-20 rule today.
+        </p>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="main-btn">+ Log New Symptom</button>
+
+    <!-- RECENT -->
+    <div class="section">
+        <h3>Recent Episodes</h3>
+
+        <div class="episode">
+            <b>Micropsia</b> - Moderate <span>2 hours ago</span>
+        </div>
+
+        <div class="episode">
+            <b>Lilliputian Hallucinations</b> - Mild <span>Yesterday</span>
+        </div>
+
+        <div class="episode">
+            <b>Time Distortion</b> - High <span>Oct 21</span>
+        </div>
+        <button onclick="goToAI()">AI Analysis</button>
+    </div>
+
+</div>
+
+<!-- FLOATING BUTTON -->
+<button class="fab">🧠 Ask AI</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

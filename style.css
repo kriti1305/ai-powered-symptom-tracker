@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* NAV */
+.top-nav {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+.top-nav a {
+    margin-left: 15px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* CENTER */
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* TITLE */
+h1 {
+    font-size: 42px;
+}
+
+.subtitle {
+    color: #aaa;
+    width: 500px;
+    margin: auto;
+}
+
+/* CARDS */
+.cards {
+    margin-top: 40px;
+}
+
+.card {
+    width: 350px;
+    margin: 15px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* BUTTON */
+.main-btn {
+    margin-top: 30px;
+    padding: 12px 25px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background: white;
+    color: black;
+}
+
+/* SIGN IN */
+.signin {
+    margin-top: 20px;
+    color: #aaa;
+}
+
+.signin span {
+    color: white;
+    font-weight: bold;
+}
+
+/* BLOBS */
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+}
+
+.b1 {
+    width: 300px;
+    height: 300px;
+    background: purple;
+    top: 50px;
+    left: -100px;
+}
+
+.b2 {
+    width: 250px;
+    height: 250px;
+    background: blue;
+    top: 300px;
+    right: -100px;
+}
+
+.b3 {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    bottom: -50px;
+    left: 40%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+}
+
+/* AI BOX */
+.ai-box {
+    background: rgba(100,100,255,0.15);
+}
+
+/* EPISODES */
+.section {
+    margin-top: 30px;
+}
+
+.episode {
+    padding: 12px;
+    margin-top: 10px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FLOATING BUTTON */
+.fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+}/* GLASS CARD */
+.glass-card {
+    width: 420px;
+    margin: 80px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+}
+
+/* LABEL */
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+/* TEXTAREA */
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* CHIPS */
+.chips {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.chip {
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.chip.active {
+    background: #6c63ff;
+}

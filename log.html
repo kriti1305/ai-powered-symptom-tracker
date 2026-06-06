@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Log Symptom</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-bg">
+
+<!-- NAV -->
+<nav class="nav">
+    <h2>AIWS</h2>
+    <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="history.html">History</a>
+    </div>
+</nav>
+
+<div class="glass-card">
+
+    <h2>Log AIWS Episode</h2>
+
+    <!-- TYPE -->
+    <label>Distortion Type</label>
+    <select id="type">
+        <option>Micropsia</option>
+        <option>Macropsia</option>
+        <option>Teleopsia</option>
+        <option>Time Distortion</option>
+    </select>
+
+    <!-- INTENSITY -->
+    <label>Intensity</label>
+    <div class="chips">
+        <div class="chip active" onclick="selectChip(this)">Mild</div>
+        <div class="chip" onclick="selectChip(this)">Moderate</div>
+        <div class="chip" onclick="selectChip(this)">Severe</div>
+    </div>
+
+    <!-- DURATION -->
+    <label>Duration (mins)</label>
+    <input type="range" min="1" max="120" value="15" id="duration">
+    <p id="durText">15 mins</p>
+
+    <!-- NOTES -->
+    <label>Notes</label>
+    <textarea id="note" placeholder="Describe what you experienced..."></textarea>
+
+    <button onclick="saveSymptom()">Save Entry</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
